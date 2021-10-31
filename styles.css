@@ -1,0 +1,133 @@
+body, html {
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app, .app2, .app3, .app4 {
+    margin-top: 10%;
+}
+
+#presupuesto-definido {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.control-de-gastos__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.control-de-gastos__container h1 {
+    margin: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.control-de-gastos__container p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.control-de-gastos__container div {
+    display: flex;
+}
+
+.control-de-gastos__container input,
+.expensives__container p input {
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #3c1053;
+    text-align: center;
+}
+
+.control-de-gastos__container div button {
+    width: 100px;
+    height: 80px;
+    margin: 0 10px;
+    border: 1px solid #3c1053;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3c1053;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+}
+
+.control-de-gastos__container div button:hover {
+    background-color: #3c1053;
+    color: white;
+    border: 1px solid white
+}
+
+.diario__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+form h3 {
+    color: white;
+    font-size: 30px;
+    margin: 0
+}
+
+.diario__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diario__content div {
+    margin: 20px
+}
+
+.expensives__container, .expensives__container p {
+    display: flex;
+    flex-direction: column;
+}
+
+.expensives__container p label {
+    padding-bottom: 10px;
+    color: white
+}
+
+.budget-types__container div h4, 
+.budget-types__container div p {
+    margin: 0;
+    color: white;
+}
+
+.budget-types__container div {
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#presupuesto-inicial-el {
+    background-color: rgb(37, 97, 165);
+}
+
+#presupuesto-gastado-el {
+    background-color: rgb(219, 105, 105)
+}
+
+#presupuesto-disponible-el {
+    background-color: seagreen;
+}
